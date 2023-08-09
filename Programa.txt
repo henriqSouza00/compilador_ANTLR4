@@ -1,0 +1,32 @@
+start[
+    float a;
+    float b;
+    int op;
+    float resultado;
+    resultado = 0;
+    print "Digite o primeiro numero: ";
+    read a;
+    print "Digite o segundo numero: ";
+    read b;
+    print "Digite o tipo da operacao: ";
+    print "[1] Somar [2] Multiplicar";
+    print "[3] Subtrair [4] Dividir";
+    read op;
+
+    if op == 1 them [
+        resultado = a + b;
+    ]
+
+    if op == 2 them [
+            resultado = a * b;
+    ]
+
+    if op == 3 them [
+            resultado = a - b;
+    ]
+
+    if op == 4 them [
+            resultado = a / b;
+    ]
+    print resultado;
+]end

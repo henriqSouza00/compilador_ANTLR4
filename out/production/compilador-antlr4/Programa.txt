@@ -1,0 +1,9 @@
+start[
+    int a;
+    int b;
+    print "Digite o primeiro numero: ";
+    read a;
+
+    print "Digite o segundo numero: ";
+    read b;
+]end
